@@ -1,0 +1,58 @@
+.searchFriend{
+    outline: none;
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 12px !important;
+}
+.searchButton{
+    background: black !important;
+    color: #fdf5d3 !important;
+    font-family: 'Quicksand', sans-serif;
+    outline: none;
+    box-shadow: none !important;
+    border: none !important;
+}
+.searchBar:hover{
+    background: #fdf5d3 !important;
+    color: black !important;
+}
+.chakra-slide{
+    background: #fdf5d3 !important;
+}
+.searchText{
+    font-size: 13px !important;
+    font-weight: 500 !important;
+}
+.notificationBadge{
+    height: 18px !important;
+    width: 18px !important;
+    background: red;
+    color: white;
+    border-radius: 82%;
+    display: flex;
+    /* margin-top: 14px; */
+    margin-bottom: -15px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    z-index: 1;
+    margin-left: 1rem;
+}
+.chakra-menu__menu-list{
+    background: #fdf5d3 !important;
+    color: black !important;
+    font-family: 'Montserrat';
+}
+.chakra-menu__menuitem, .chakra-menu__menu-list{
+    font-size: 14px;
+    font-weight: 500 !important;
+    border-radius: 4px;
+}
+.chakra-menu__menuitem:hover{
+    color: #fdf5d3 !important;
+    background: black !important;
+}
+.userBox:hover{
+    background: black;
+    color:#fdf5d3 ;
+}

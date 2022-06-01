@@ -1,0 +1,9 @@
+.chatList{
+    display: flex;
+}
+@media (min-width:750px) and (max-width:992px) {
+    .groupButton{
+       height: 27px !important;
+       width: 90px !important;
+    }
+}

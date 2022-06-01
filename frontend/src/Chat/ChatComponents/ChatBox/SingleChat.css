@@ -1,0 +1,101 @@
+
+.messages{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.selection , .firstSelection, .secondSelection{
+    display: flex;
+    align-items: center;
+}
+
+.firstSelection, .secondSelection{
+    padding-right: 10px;
+}
+.chatHeader{
+    background: #fdf5d3;
+    color: black;
+}
+.selection p {
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-family: 'Oswald';
+}
+.selection select{
+    font-size: 13px;
+    outline: none;
+    background: black;
+    width: 115px;
+    border-radius: 22px;
+    padding: 4px 5px;
+    border: 2px solid #000000;
+    font-family: 'Montserrat';
+    color: #fdf5d3;
+    font-weight: 700;
+}
+
+.selection select::after { 
+    content: "\25b6"; 
+    padding-right: 20px
+}
+
+.translate{
+    font-size: 15px;
+    background: black;
+    padding: 5px 20px;
+    border-radius: 6px;
+    color: #fdf5d3;
+    font-weight: 500;
+}
+
+
+.profileModalMobile{
+    display: block;
+ }
+.messageInput{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.chatHeader{
+    width: 100%;
+}
+.chatFriendHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:768px) {
+   
+    .friendName{
+        width: 90%;
+    }
+    .chatHeader{
+        width: 100%;
+        display: grid;
+    }
+    .chatFriendHeader{
+        display: flex;
+    }
+}
+
+
+@media (max-width:480px){
+    .selection p{
+        font-size:13px;
+    }
+    .selection select{
+        font-size: 7px;
+        width: 60px;
+    }
+    .chatFriendHeader{
+        margin-bottom: 10px;
+    }
+    .backArrow{
+        margin-top: -40px;
+    }
+}

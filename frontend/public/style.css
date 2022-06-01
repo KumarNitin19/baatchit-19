@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.logoImage{
+    width: 50px;
+    object-fit: contain;
+    margin-left: 7px;
+    border-radius: 50%;
+}
+.App{
+    background-image: url('./../public/assets/loginBackground.jpg') ;
+    height: 100vh;
+    width: 100vw;
+}
+
+@media (max-width:480px){
+    .logoImage{
+        display: none;
+    }
+}

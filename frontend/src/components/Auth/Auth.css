@@ -1,0 +1,31 @@
+.chakra-form__required-indicator{
+    display: none;
+}
+.loginHeading{
+    font-family: 'Roboto';
+    font-size: 2.5rem;
+}
+
+.authButton[aria-selected=true]{
+    background-color: black !important;
+    color: #fdf5d3 !important;
+}
+.authButton{
+    box-shadow: none !important;
+}
+.authButton[aria-selected=false]{
+    background-color: #fdf5d3 !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+.inputBox{
+    border: 2px solid !important;
+    color: black !important;
+    box-shadow: none !important;
+    font-weight: 500;
+}
+.blackButton{
+    background: black !important;
+    color: #fdf5d3 !important;
+    box-shadow: none !important;
+}
